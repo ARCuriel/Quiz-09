@@ -1,0 +1,23 @@
+# Aram Rodrigo Curiel Graxiola
+# A01229982
+# Partial Exam 2 - Fibonacci
+
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n-1) + fib(n-2)
+
+print()
+n = int(input("Give me a number to consider: "))
+
+do_F = fib(n)
+
+if (n == 0):
+    print()
+    print("***The fibonacci number is 0")
+elif (n == 1):
+    print()
+    print("***The fibonacci number is 1")
+else:
+    print()
+    print("***The fibonacci number is: ",do_F)
